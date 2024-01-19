@@ -4,7 +4,7 @@ from surprise.model_selection import train_test_split
 import streamlit as st
 
 # Load the dataset
-file_path = "final_ratings"  # Replace with your actual file path
+file_path = "final_ratings.csv"  # Replace with your actual file path
 df = pd.read_csv(file_path)
 
 # Create a Surprise Dataset
